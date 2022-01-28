@@ -1,0 +1,81 @@
+
+
+@import "./assets/typography"
+@import "./assets/button"
+
+$font-name: "Spartan"
+$font-weight: "Bold", "Light", "Regular", "Medium"
+
+@if ($font-name != "" and nth($font-weight,1) != "")
+  @each $i in $font-weight
+    @font-face
+      font-family: "#{$font-name nth($i,1)}"
+      src: url("./fonts/#{$font-name}/#{$font-name}-#{nth($i,1)}.ttf") format("truetype")
+
+  
+$font-name: "Urbanist"
+$font-weight: "Bold", "Light", "Regular", "Medium"
+
+@if ($font-name != "" and nth($font-weight,1) != "")
+  @each $i in $font-weight
+    @font-face
+      font-family: "#{$font-name nth($i,1)}"
+      src: url("./fonts/#{$font-name}/#{$font-name}-#{nth($i,1)}.ttf") format("truetype")
+
+$font-name: "MontserratAlternates"
+$font-weight: "Bold", "Light", "Regular", "Medium", "ExtraBold", "SemiBold"
+
+@if ($font-name != "" and nth($font-weight,1) != "")
+  @each $i in $font-weight
+    @font-face
+      font-family: "#{$font-name nth($i,1)}"
+      src: url("./fonts/#{$font-name}/#{$font-name}-#{nth($i,1)}.ttf") format("truetype")
+  
+  
+*
+  margin: 0
+  padding: 0
+
+html
+  scroll-behavior: smooth
+
+body
+  // font-family: 'Outfit', sans-serif
+  background-color: #0A090F
+
+a
+  cursor: pointer
+  text-decoration: none
+
+.container
+  padding-right: 0.75rem
+  padding-left: 0.75rem
+  margin-right: auto
+  margin-left: auto
+
+@media (min-width: 576px)
+  .container-sm, .container
+    max-width: 540px
+
+@media (min-width: 768px)
+  .container-md, .container-sm, .container
+    max-width: 720px
+
+@media (min-width: 992px)
+  .container-lg, .container-md, .container-sm, .container
+    max-width: 960px
+
+@media (min-width: 1200px)
+  .container-xl, .container-lg, .container-md, .container-sm, .container
+    max-width: 1140px
+
+@media (min-width: 1400px)
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container
+    max-width: 1320px
+
+.ducTYb
+  margin-left: 100px !important
+
+@media (max-width: 768px)
+  .ducTYb
+    margin: auto !important

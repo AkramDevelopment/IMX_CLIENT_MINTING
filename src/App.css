@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+	padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Outfit', sans-serif;
+  background-color: #0E0E0E;
+}
+
+a{
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container-sm, .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container-md, .container-sm, .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container-lg, .container-md, .container-sm, .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1320px;
+  }
+}
+
+.ducTYb {
+  margin-left: 100px !important;
+}
+@media (max-width: 768px) {
+  .ducTYb {
+    margin: auto !important;
+  }
+}
+
+
+
+
+
+/* typography */
+
+
+/* h1 {font-size: calc(7.5rem + 1.5vw)}
+
+h2 {font-size: calc(1.325rem + .9vw)}
+    
+
+h3 {font-size: calc(1.3rem + .6vw)}
+    
+h4 {font-size: calc(1.275rem + .3vw)}
+
+h5 {font-size: 1.25rem}
+
+h6 { font-size: 1rem } 
+
+p { font-size: 1rem}
+
+a { font-size: 0.875rem } */
+
+
+
+
+

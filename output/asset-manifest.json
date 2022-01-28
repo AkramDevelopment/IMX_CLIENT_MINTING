@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.83d748a2.chunk.css",
+    "main.js": "/static/js/main.920f3695.chunk.js",
+    "main.js.map": "/static/js/main.920f3695.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8a3e083b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8a3e083b.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.930ef7b0.chunk.js": "/static/js/2.930ef7b0.chunk.js",
+    "static/js/2.930ef7b0.chunk.js.map": "/static/js/2.930ef7b0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.83d748a2.chunk.css.map": "/static/css/main.83d748a2.chunk.css.map",
+    "static/js/2.930ef7b0.chunk.js.LICENSE.txt": "/static/js/2.930ef7b0.chunk.js.LICENSE.txt",
+    "static/media/AngryLogo.b3e81e75.svg": "/static/media/AngryLogo.b3e81e75.svg",
+    "static/media/ETH.d3cf8d0d.svg": "/static/media/ETH.d3cf8d0d.svg",
+    "static/media/FantasyLogo.4d225162.svg": "/static/media/FantasyLogo.4d225162.svg",
+    "static/media/Hero.7cb6af2d.svg": "/static/media/Hero.7cb6af2d.svg",
+    "static/media/HeroMobile.5cfbf3b1.svg": "/static/media/HeroMobile.5cfbf3b1.svg",
+    "static/media/App.sass": "/static/media/Urbanist-Regular.f336cfca.ttf",
+    "static/media/arrowBottom.efe703cd.svg": "/static/media/arrowBottom.efe703cd.svg",
+    "static/media/arrowTop.0f4319f2.svg": "/static/media/arrowTop.0f4319f2.svg",
+    "static/media/banner.1e7f0f18.png": "/static/media/banner.1e7f0f18.png",
+    "static/media/burger.be432d77.svg": "/static/media/burger.be432d77.svg",
+    "static/media/close.8300fea0.svg": "/static/media/close.8300fea0.svg",
+    "static/media/discord.cc93c927.svg": "/static/media/discord.cc93c927.svg",
+    "static/media/elf1.ae4d46bd.png": "/static/media/elf1.ae4d46bd.png",
+    "static/media/elf3.5617f82f.jpg": "/static/media/elf3.5617f82f.jpg",
+    "static/media/elfTwo.525e1177.jpg": "/static/media/elfTwo.525e1177.jpg",
+    "static/media/immutableLogo.727a08f6.svg": "/static/media/immutableLogo.727a08f6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a3e083b.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.930ef7b0.chunk.js",
+    "static/css/main.83d748a2.chunk.css",
+    "static/js/main.920f3695.chunk.js"
+  ]
+}
